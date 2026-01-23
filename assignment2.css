@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 100px;
+  height: 10vh;
+}
+
+.nav-logo {
+  font-size: 34px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.nav-sections{
+  display: flex;
+  gap: 40px;
+}
+.nav-sections button {
+  all: unset;
+  font-size: 24px;
+  font-weight: 500;
+  color: #b0b0b0;
+  cursor: pointer;
+  position: relative;
+}
+.nav-sections button:hover{
+  text-decoration: underline;
+}
+.nav-username{
+  color:#5585b5;
+  background-color: #bbe4e9;
+  padding: 20px;
+  border-radius: 12px;
+}
