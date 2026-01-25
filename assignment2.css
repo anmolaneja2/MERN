@@ -2,25 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: 200px;
+  padding-inline: 20vh;
   height: 10vh;
 }
 
 .nav-logo {
-  font-size: 34px;
+  font-size: 3.4vh;
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 .nav-sections {
   display: flex;
-  gap: 40px;
+  gap: 4vh;
 }
 .nav-sections button {
   all: unset;
-  font-size: 24px;
+  font-size: 3vh;
   font-weight: 500;
   color: #b0b0b0;
   cursor: pointer;
@@ -32,9 +31,9 @@
 .nav-username {
   color: #5585b5;
   background-color: #bbe4e9;
-  padding: 20px;
-  border-radius: 12px;
-  font-size: 18px;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  font-size: 1.8vh;
   cursor: pointer;
 }
 
@@ -47,31 +46,31 @@
 }
 .left-div {
   display: grid;
-  gap: 2px;
-  width: 600px;
+  gap: 0.2vh;
+  width: 60vh;
 }
 #left-div-heading1,
 #left-div-heading2 {
   color: #4b5b69;
-  font-size: 55px;
+  font-size: 5.5vh;
   font-weight: bold;
 }
 #left-div-heading3 {
   color: #0fa5fa;
-  font-size: 50px;
+  font-size: 5.5vh;
   font-weight: bold;
 }
 #left-div-p {
   color: #a9aaab;
-  font-size: 24px;
+  font-size: 3vh;
 }
 .hero-section button {
   all: unset;
   background-color: #0fa5fa;
   color: white;
-  padding: 25px 40px;
-  border-radius: 12px;
-  font-size: 20px;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  font-size: 1.8vh;
   font-weight: 600;
   width: fit-content;
   cursor: pointer;
