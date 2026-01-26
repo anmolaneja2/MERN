@@ -1,0 +1,78 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 20vh;
+  height: 10vh;
+}
+
+.nav-logo {
+  font-size: 3.4vh;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.nav-sections {
+  display: flex;
+  gap: 4vh;
+}
+.nav-sections button {
+  all: unset;
+  font-size: 3vh;
+  font-weight: 500;
+  color: #b0b0b0;
+  cursor: pointer;
+  position: relative;
+}
+.nav-sections button:hover {
+  text-decoration: underline;
+}
+.nav-username {
+  color: #5585b5;
+  background-color: #bbe4e9;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  font-size: 1.8vh;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12vh;
+  gap: 5vh;
+}
+.left-div {
+  display: grid;
+  gap: 0.2vh;
+  width: 60vh;
+}
+#left-div-heading1,
+#left-div-heading2 {
+  color: #4b5b69;
+  font-size: 5.5vh;
+  font-weight: bold;
+}
+#left-div-heading3 {
+  color: #0fa5fa;
+  font-size: 5.5vh;
+  font-weight: bold;
+}
+#left-div-p {
+  color: #a9aaab;
+  font-size: 3vh;
+}
+.hero-section button {
+  all: unset;
+  background-color: #0fa5fa;
+  color: white;
+  padding: 2vh;
+  border-radius: 1.2vh;
+  font-size: 1.8vh;
+  font-weight: 600;
+  width: fit-content;
+  cursor: pointer;
+  font-family: sans-serif;
+}
