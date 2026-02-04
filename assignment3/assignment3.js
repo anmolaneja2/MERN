@@ -13,5 +13,5 @@ let username = "";
 
 buttonSubmit.addEventListener('click', () => {
   username = inputText.value;
-  header.textContent = `Hello ${username}`;
+  header.textContent = `Hello, ${username}`;
 });
